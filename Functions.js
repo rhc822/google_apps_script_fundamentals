@@ -42,7 +42,8 @@ function runOtherFunction(){
 
 }
 
-runOtherFunction();
+// runOtherFunction();
+
 
 var mult = function(a, b){
 
@@ -90,4 +91,3 @@ function myPrice(){
 
 // code here can NOT use price
 // Logger.log(price);
-myPrice();
