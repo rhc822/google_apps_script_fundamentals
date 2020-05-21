@@ -14,20 +14,18 @@ function objectFunction(){
         title: "Data analyst"
     }
 
-    console.log(employee);
-    console.log(typeof employee);
+    Logger.log(employee);
+    Logger.log(typeof employee);
 
-    console.log(employee.name);
-    console.log(employee["name"]);
-    console.log(employee.title);
+    Logger.log(employee.name);
+    Logger.log(employee["name"]);
+    Logger.log(employee.title);
 
     // add item to object
     employee["department"] = "Web Analytics"
-    console.log(employee);
+    Logger.log(employee);
 
     // deleting and item from object
     delete employee.age;
-    console.log(employee);
+    Logger.log(employee);
 }
-
-objectFunction();
